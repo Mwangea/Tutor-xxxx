@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <BookOpen className="h-6 w-6" />
-              <span className="text-xl font-bold">Tutor xxx</span>
+              <span className="text-xl font-bold">Tutor Christabel</span>
             </div>
             <p className="text-sm opacity-80">
               Empowering students to achieve academic excellence through personalized tutoring.
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/20 pt-8 mt-8 text-center text-sm opacity-80">
-          <p>© {new Date().getFullYear()} Tutor xxx. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Tutor Christabel. All rights reserved.</p>
         </div>
       </div>
     </footer>

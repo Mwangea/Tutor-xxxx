@@ -20,8 +20,8 @@ export const footerLinks = [
   {
     title: 'Contact',
     links: [
-      { label: 'contact@tutorxxx.com', href: 'mailto:contact@tutorxxx.com' },
-      { label: '(555) 123-4567', href: 'tel:+15551234567' },
+      { label: 'contact@tutorChristabel.com', href: 'mailto:contact@tutorChristabel.com' },
+      { label: '+15125735490', href: 'tel:+15125735490' },
       { label: '123 Education Street', href: '#contact' },
       { label: 'Learning City, ST 12345', href: '#contact' }
     ]

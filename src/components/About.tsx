@@ -15,13 +15,13 @@ export default function About() {
           </div>
           <div className="text-gray-600 leading-relaxed">
             <p className="mb-4">
-              At Tutor xxx place, we are a team of dedicated and experienced academicians committed to empowering students to excel in their academic journey.
+              At Tutor Christabel place, we are a team of dedicated and experienced academicians committed to empowering students to excel in their academic journey.
             </p>
             <p className="mb-4">
               Our personalized approach ensures that each student receives tailored support in a wide range of subjects, helping them to build confidence and achieve their full potential.
             </p>
             <p>
-              With a focus on expertise, flexibility, and affordability, Tutor xxx provides a supportive and nurturing environment for students to thrive academically.
+              With a focus on expertise, flexibility, and affordability, Tutor Christabel provides a supportive and nurturing environment for students to thrive academically.
             </p>
           </div>
         </div>

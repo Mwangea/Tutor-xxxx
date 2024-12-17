@@ -47,7 +47,7 @@ function App() {
       
       <Footer />
       <WhatsAppButton 
-        phoneNumber="5551234567"
+        phoneNumber="+15125735490"
         message="Hi! I'm interested in tutoring services. Can you help me?"
       />
     </div>
