@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import WhatsAppButton from './components/common/WhatsAppButton';
 import { TestimonialCard } from './components/TestimonialCard';
 
+
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -16,6 +17,11 @@ function App() {
       <Hero />
       <About />
       <ServicesList />
+
+      {/* why choose us Section */}
+      <div className="min-h-screen bg-gray-100">
+        
+      </div>
       <ProjectsGrid />
       
       {/* Contact Section */}
