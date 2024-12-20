@@ -33,8 +33,13 @@ function App() {
             <div>
               <h3 className="text-xl font-semibold mb-4 text-[#1F4788]">Get in Touch</h3>
               <div className="space-y-4 text-gray-600">
-                <p>Email: support@TutuorChristabel.com</p>
-                <p>Phone: +15125735490</p>
+              <p>
+  Email: <a href="mailto:support@TutorChristabel.com" className="text-blue-500 hover:underline">support@TutorChristabel.com</a>
+</p>
+<p>
+  Phone: <a href="tel:+15125735490" className="text-blue-500 hover:underline">+1 (512) 573-5490</a>
+</p>
+
                 <p>Address: 815 Brazos St, Austin, TX 78701 - Brazos Bldg</p>
               </div>
               <div className="mt-8">
