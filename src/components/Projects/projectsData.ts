@@ -2,16 +2,102 @@ export const projectsData = [
   {
     title: 'SAT Score Improvement',
     description: 'Student improved SAT score by 300 points after 3 months of dedicated tutoring.',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f'
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f',
+    alt: 'Students studying together for SAT exam',
+    category: 'Academic Achievement',
+    metaDescription: 'Case study of significant SAT score improvement through dedicated tutoring',
   },
   {
     title: 'Academic Excellence',
     description: 'Achieved straight As in all subjects through personalized study plans.',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644'
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644',
+    alt: 'Student celebrating academic success',
+    category: 'Academic Achievement',
+    metaDescription: 'Success story of achieving academic excellence through personalized learning',
   },
   {
     title: 'College Preparation',
     description: 'Successfully admitted to top university with scholarship support.',
-    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c'
-  }
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c',
+    alt: 'Student receiving college acceptance letter',
+    category: 'College Success',
+    metaDescription: 'Journey to college admission with scholarship achievement',
+  },
+  {
+    title: 'Speed and Precision: 90% Mastery',
+    description: 'A remarkable display of efficiency with a 90% score achieved in just 45 minutes, demonstrating excellent test-taking strategy and thorough preparation.',
+    image: "/prj1.jpg",
+    alt: 'Test score showing 90% achievement',
+    category: 'Test Performance',
+    metaDescription: 'Quick mastery achievement with 90% score in 45 minutes',
+  },
+  {
+    title: 'Breaking Records: Perfect HESI Performance',
+    description: 'An exceptional achievement showcasing a near-perfect conversion score of 99.99 with a HESI score of 1251, representing outstanding mastery of nursing concepts and clinical judgment',
+    image: "/prj2.jpg",
+    alt: 'HESI exam perfect score display',
+    category: 'Nursing Excellence',
+    metaDescription: 'Record-breaking HESI performance with perfect conversion score',
+  },
+  {
+    title: 'Steady Excellence: The 94.7% Journey',
+    description: 'A stellar performance with 94.7% achieved through dedicated focus over 1 hour and 37 minutes, showing strong understanding and careful attention to detail.',
+    image: "/prj3.jpg",
+    alt: 'Score display showing 94.7% achievement',
+    category: 'Test Performance',
+    metaDescription: 'Consistent excellence demonstrated through 94.7% achievement',
+  },
+  {
+    
+    title: 'Endurance and Excellence: 94% Victory',
+    description: 'A demonstration of sustained concentration resulting in an impressive 94% score over 2 hours and 15 minutes, reflecting thorough knowledge and careful consideration.',
+    image: "/prj4.jpg",
+    alt: 'Test results showing 94% score',
+    category: 'Test Performance',
+    metaDescription: 'Long-duration test excellence with 94% achievement',
+  },
+  {
+    
+    title: 'Solid Foundation: 1033 HESI Success',
+    description: 'A strong performance with a 1033 HESI score and 92.97 conversion rate, showcasing consistent understanding of essential nursing concepts.',
+    image: "/prj5.jpg",
+    alt: 'HESI exam results display',
+    category: 'Nursing Excellence',
+    metaDescription: 'Outstanding HESI performance with 1033 score achievement',
+  },
+  {
+   
+    title: 'BSN Excellence: 92.7% Achievement',
+    description: 'A BSN program success story achieving 92.7% with 150 points in just over 2 hours, demonstrating strong clinical reasoning and comprehensive knowledge base.',
+    image: "/prj6.jpg",
+    alt: 'BSN program test results',
+    category: 'Nursing Excellence',
+    metaDescription: 'BSN program excellence with 92.7% score',
+  },
+  {
+    
+    title: 'ADN Excellence: Advanced Performance',
+    description: 'An impressive 88% score achieved on the ATI nursing assessment with 150 points, completed on 11/16/2024. This nearly 3-hour performance demonstrates strong dedication and thorough understanding of nursing concepts, earning an Advanced academic preparedness level.',
+    image: "/prj7.jpg",
+    alt: 'ADN program assessment results',
+    category: 'Nursing Excellence',
+    metaDescription: 'Advanced ADN program performance with 88% achievement',
+  },
+  {
+    
+    title: 'ATI Mastery: 95.3% Achievement',
+    description: 'An outstanding performance scoring 95.3% in the ADN program assessment, completed on 12/3/2024. With 150 points earned over 3 hours and 29 minutes, this score reflects exceptional comprehension and meticulous attention to detail in nursing concepts.',
+    image: "/prj8.jpg",
+    alt: 'ATI mastery exam results',
+    category: 'Nursing Excellence',
+    metaDescription: 'Excellence in ATI assessment with 95.3% achievement',
+  },
+  {
+    title: 'Web Development Success',
+    description: 'Successfully completed full-stack web development project with modern technologies and best practices implementation.',
+    image: "/web-dev.jpg",
+    alt: 'Web development project showcase',
+    category: 'Technical Achievement',
+    metaDescription: 'Full-stack web development project success story',
+  },
 ];

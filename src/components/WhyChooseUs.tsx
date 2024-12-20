@@ -80,7 +80,7 @@ const WhyChooseUs: FC = () => {
                     description: 'Students typically improve by 2-3 grade levels',
                   },
                   {
-                    value: '95%',
+                    value: '98%',
                     label: 'Student Satisfaction',
                     description: 'Based on post-tutoring surveys',
                   },
