@@ -8,6 +8,7 @@ import ContactForm from './components/Contact/ContactForm';
 import Footer from './components/Footer/Footer';
 import WhatsAppButton from './components/common/WhatsAppButton';
 import { TestimonialCard } from './components/TestimonialCard';
+import WhyChooseUs from './components/WhyChooseUs';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 
       {/* why choose us Section */}
       <div className="min-h-screen bg-gray-100">
-        
+        <WhyChooseUs />
       </div>
       <ProjectsGrid />
       

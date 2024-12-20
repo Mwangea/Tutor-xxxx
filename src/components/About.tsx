@@ -24,7 +24,7 @@ export default function About() {
           className="max-w-4xl mx-auto text-center mb-12"
         >
           <h2 className="text-4xl font-bold text-[#1F4788] mb-4">About Us</h2>
-          <p className="text-gray-600">Empowering students to reach their full academic potential</p>
+          <p className="text-gray-600 font-semibold">Empowering students to reach their full academic potential</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
