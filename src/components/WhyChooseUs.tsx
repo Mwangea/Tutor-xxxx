@@ -103,7 +103,7 @@ const WhyChooseUs: FC = () => {
             <div className="w-full lg:w-1/2">
               <div className="relative rounded-lg overflow-hidden shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                  src="/tutor2.jpeg"
                   alt="Professional tutoring session at Tutor Christabel"
                   className="w-full h-full object-cover"
                   loading="lazy"
