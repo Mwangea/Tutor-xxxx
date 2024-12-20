@@ -25,9 +25,9 @@ function App() {
             <div>
               <h3 className="text-xl font-semibold mb-4 text-[#1F4788]">Get in Touch</h3>
               <div className="space-y-4 text-gray-600">
-                <p>Email: contact@tutor-xxxx.com</p>
-                <p>Phone: (555) 123-4567</p>
-                <p>Address: 123 Education Street, Learning City, ST 12345</p>
+                <p>Email: support@TutuorChristabel.com</p>
+                <p>Phone: +15125735490</p>
+                <p>Address: 815 Brazos St, Austin, TX 78701 - Brazos Bldg</p>
               </div>
               <div className="mt-8">
                 <h3 className="text-xl font-semibold mb-4 text-[#1F4788]">Office Hours</h3>
