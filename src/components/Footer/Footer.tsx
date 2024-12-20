@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen } from 'lucide-react';
 import { footerLinks } from './footerData';
 
@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1F4788] text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
@@ -14,11 +14,11 @@ export default function Footer() {
               <span className="text-xl font-bold">Tutor Christabel</span>
             </div>
             <p className="text-sm opacity-80">
-              Empowering students to achieve academic excellence through personalized tutoring.
+              Empowering students with comprehensive tutoring in technology, healthcare, and sciences.
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Links Sections */}
           {footerLinks.map((section) => (
             <div key={section.title}>
               <h3 className="font-semibold mb-4">{section.title}</h3>

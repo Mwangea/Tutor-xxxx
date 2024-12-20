@@ -1,20 +1,34 @@
 export const footerLinks = [
+
   {
-    title: 'Services',
+    title: 'Development Services',
     links: [
-      { label: 'One-on-One Tutoring', href: '#services' },
-      { label: 'Group Sessions', href: '#services' },
-      { label: 'Test Preparation', href: '#services' },
-      { label: 'College Prep', href: '#services' }
+      { label: 'Web Designing', href: '#services' },
+      { label: 'Web Development', href: '#services' },
+      { label: 'App Development', href: '#services' },
+      { label: 'Coding Tasks', href: '#services' },
+      { label: 'Database MySQL', href: '#services' }
     ]
   },
   {
-    title: 'Resources',
+    title: 'Academic Subjects',
     links: [
-      { label: 'Study Materials', href: '#' },
-      { label: 'Blog', href: '#' },
-      { label: 'FAQs', href: '#' },
-      { label: 'Student Portal', href: '#' }
+      { label: 'Nursing', href: '#nursing' },
+      { label: 'Pre-Requisites', href: '#prerequisites' },
+      { label: 'Medicine', href: '#medicine' },
+      { label: 'College Algebra', href: '#algebra' },
+      { label: 'Psychology', href: '#psychology' },
+      { label: 'Mathematics', href: '#math' }
+    ]
+  },
+  {
+    title: 'Science Subjects',
+    links: [
+      { label: 'Anatomy & Physiology', href: '#anatomy' },
+      { label: 'Biology', href: '#biology' },
+      { label: 'Microbiology', href: '#microbiology' },
+      { label: 'ATI HESI', href: '#hesi' },
+      { label: 'Straighterline', href: '#straighterline' }
     ]
   },
   {
