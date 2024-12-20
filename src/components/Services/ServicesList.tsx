@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import ServiceCard from './ServiceCard';
 import { allServices } from './servicesData';
 

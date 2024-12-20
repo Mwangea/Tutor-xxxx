@@ -7,6 +7,7 @@ import ProjectsGrid from './components/Projects/ProjectsGrid';
 import ContactForm from './components/Contact/ContactForm';
 import Footer from './components/Footer/Footer';
 import WhatsAppButton from './components/common/WhatsAppButton';
+import { TestimonialCard } from './components/TestimonialCard';
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/*Testimonial */}
+      <TestimonialCard />
       
       <Footer />
       <WhatsAppButton 
