@@ -9,7 +9,7 @@ export const allServices = [
     title: 'All online tutoring and proctored exams assistance',
     description: 'Comprehensive online tutoring support for all academic levels. Get personalized help with assignments, test preparation, and live proctored exam assistance from experienced tutors.',
     Icon: Users,
-    image: 'online.png',
+    image: 'online-ed.png',
     alt: 'Students engaging in online tutoring session',
     category: 'Tutoring',
     metaDescription: 'Expert online tutoring and proctored exam assistance for all subjects and academic levels.'
