@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { BookOpen, Menu, X, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export default function Header() {
@@ -14,30 +14,10 @@ export default function Header() {
   ];
 
   const socialLinks = [
-    { 
-      icon: Facebook, 
-      name: 'Facebook',
-      href: 'https://www.facebook.com/tutor-christabel', 
-      color: '#3b5998' 
-    },
-    { 
-      icon: Twitter, 
-      name: 'Twitter',
-      href: 'https://www.twitter.com/tutor-christabel', 
-      color: '#1DA1F2' 
-    },
-    { 
-      icon: Instagram, 
-      name: 'Instagram',
-      href: 'https://www.instagram.com/tutor-christabel', 
-      color: '#C13584' 
-    },
-    { 
-      icon: Linkedin, 
-      name: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/tutor-christabel', 
-      color: '#0077B5' 
-    }
+    { icon: Facebook, name: 'Facebook', href: 'https://www.facebook.com/tutor-christabel', color: '#3b5998' },
+    { icon: Twitter, name: 'Twitter', href: 'https://www.twitter.com/tutor-christabel', color: '#1DA1F2' },
+    { icon: Instagram, name: 'Instagram', href: 'https://www.instagram.com/tutor-christabel', color: '#C13584' },
+    { icon: Linkedin, name: 'LinkedIn', href: 'https://www.linkedin.com/in/tutor-christabel', color: '#0077B5' },
   ];
 
   const handleSocialClick = (href) => {
@@ -65,7 +45,7 @@ export default function Header() {
               </a>
             ))}
             <div className="relative">
-              <button 
+              <button
                 className="bg-[#4A9B8C] text-white px-6 py-2 rounded-full hover:bg-[#3d8274] transition-colors"
                 onClick={() => setIsSocialDropdownOpen(!isSocialDropdownOpen)}
               >
@@ -79,9 +59,9 @@ export default function Header() {
                       className="flex items-center space-x-2 hover:bg-gray-100 p-2 rounded-md transition-colors"
                       onClick={() => handleSocialClick(social.href)}
                     >
-                      <social.icon 
-                        className="h-6 w-6" 
-                        color={social.color} 
+                      <social.icon
+                        className="h-6 w-6"
+                        color={social.color}
                       />
                       <span>{social.name}</span>
                     </button>
@@ -95,6 +75,7 @@ export default function Header() {
           <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"} // Accessible name added
           >
             {isMenuOpen ? (
               <X className="h-6 w-6 text-[#1F4788]" />
@@ -118,9 +99,10 @@ export default function Header() {
               </a>
             ))}
             <div className="relative w-full">
-              <button 
+              <button
                 className="w-full bg-[#4A9B8C] text-white px-6 py-2 rounded-full hover:bg-[#3d8274] mt-4"
                 onClick={() => setIsSocialDropdownOpen(!isSocialDropdownOpen)}
+                aria-label="Request Help"
               >
                 Request Help
               </button>
@@ -131,10 +113,11 @@ export default function Header() {
                       key={index}
                       className="flex items-center space-x-2 hover:bg-gray-100 p-2 rounded-md transition-colors"
                       onClick={() => handleSocialClick(social.href)}
+                      aria-label={`Visit ${social.name}`}
                     >
-                      <social.icon 
-                        className="h-6 w-6" 
-                        color={social.color} 
+                      <social.icon
+                        className="h-6 w-6"
+                        color={social.color}
                       />
                       <span>{social.name}</span>
                     </button>
