@@ -1,5 +1,12 @@
-
+import React from 'react';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
+
+// Dynamically import heavy components
+const BookOpen = dynamic(() => import('lucide-react').then((mod) => mod.BookOpen), {
+  ssr: false, // Do not render on the server
+  loading: () => <div className="h-8 w-8 bg-gray-200 animate-pulse" /> // Placeholder
+});
 
 export default function Hero() {
   return (
@@ -20,7 +27,7 @@ export default function Hero() {
           content="Transform your academic journey with expert personalized tutoring. Our proven methods build confidence and achieve outstanding results."
         />
         <meta property="og:type" content="website" />
-        {/* Preload background image */}
+        {/* Preload critical assets */}
         <link rel="preload" as="image" href="/Hero-img.jpeg" />
       </Head>
       <section 
@@ -28,25 +35,20 @@ export default function Hero() {
         aria-label="Homepage Hero Section"
         className="pt-20 min-h-screen relative flex items-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(31, 71, 136, 0.9), rgba(74, 155, 140, 0.9)), url(/Hero-img.jpeg)',
+          backgroundImage: `
+            linear-gradient(rgba(31, 71, 136, 0.9), rgba(74, 155, 140, 0.9)),
+            url(/Hero-img.jpeg)
+          `,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
       >
         <div className="container mx-auto px-4 py-20 text-center text-white relative z-10">
           {/* High-priority content */}
-          <h1 
-            className="text-4xl md:text-6xl font-bold mb-6" 
-            itemProp="headline"
-            style={{ fontDisplay: 'swap' }}
-          >
+          <h1 className="text-4xl md:text-6xl font-bold mb-6" itemProp="headline">
             Empowering Students to Excel
           </h1>
-          <p 
-            className="text-xl mb-8 max-w-2xl mx-auto" 
-            itemProp="description"
-            style={{ fontDisplay: 'swap' }}
-          >
+          <p className="text-xl mb-8 max-w-2xl mx-auto" itemProp="description">
             Transform your academic journey with personalized tutoring that builds confidence and achieves results.
           </p>
           <button 
@@ -57,19 +59,6 @@ export default function Hero() {
             Start Learning Today
           </button>
         </div>
-        {/* Add structured data for SEO */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            "name": "Student Tutoring Services",
-            "description": "Transform your academic journey with personalized tutoring that builds confidence and achieves results.",
-            "offers": {
-              "@type": "Offer",
-              "description": "Personalized tutoring services"
-            }
-          })}
-        </script>
       </section>
     </>
   );
