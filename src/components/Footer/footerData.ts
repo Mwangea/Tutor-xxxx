@@ -34,10 +34,10 @@ export const footerLinks = [
   {
     title: 'Contact',
     links: [
-      { label: 'contact@tutorChristabel.com', href: 'mailto:contact@tutorChristabel.com' },
+      { label: 'support@tutorChristabel.com', href: 'mailto:support@tutorChristabel.com' },
       { label: '+15125735490', href: 'tel:+15125735490' },
-      { label: '123 Education Street', href: '#contact' },
-      { label: 'Learning City, ST 12345', href: '#contact' }
+      { label: '815 Brazos St, Austin,', href: '#contact' },
+      { label: 'TX 78701 - Brazos Bldg', href: '#contact' }
     ]
   }
 ];

@@ -6,111 +6,193 @@ import {
 
 export const allServices = [
   {
-    title: 'One-on-One Tutoring',
-    description: 'Personalized attention and customized learning plans for individual students.',
+    title: 'All online tutoring and proctored exams assistance',
+    description: 'Comprehensive online tutoring support for all academic levels. Get personalized help with assignments, test preparation, and live proctored exam assistance from experienced tutors.',
     Icon: Users,
-    image: 'https://images.unsplash.com/photo-1544717305-2782549b5136'
+    image: '/online.png',
+    alt: 'Students engaging in online tutoring session',
+    category: 'Tutoring',
+    metaDescription: 'Expert online tutoring and proctored exam assistance for all subjects and academic levels.'
   },
   {
-    title: 'Group Sessions',
-    description: 'Collaborative learning environment for small groups with similar academic goals.',
+    title: 'GED Exams',
+    description: 'Professional GED exam preparation and support services. Our experienced tutors help you master all four subjects: Mathematical Reasoning, Reasoning Through Language Arts, Science, and Social Studies.',
     Icon: GraduationCap,
-    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754'
+    image: '/Ged.png',
+    alt: 'GED exam preparation materials and study resources',
+    category: 'Standardized Tests',
+    metaDescription: 'Comprehensive GED exam preparation and support services for all four test subjects.'
   },
   {
-    title: 'Test Preparation',
-    description: 'Comprehensive preparation for standardized tests and examinations.',
+    title: 'ATI TEAS Exams',
+    description: 'Specialized preparation for the ATI TEAS exam, covering Reading, Math, Science, and English. Get personalized strategies and practice tests to boost your score.',
     Icon: Target,
-    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173'
+    image: '/TEAS.png',
+    alt: 'ATI TEAS exam study materials',
+    category: 'Healthcare Education',
+    metaDescription: 'Expert ATI TEAS exam preparation covering all test sections with personalized support.'
   },
   {
-    title: 'Mathematics',
-    description: 'Expert guidance in all levels of mathematics from elementary to advanced calculus.',
+    title: 'HESI Exams',
+    description: 'Comprehensive HESI exam preparation services. Get expert guidance for all subjects including Anatomy, Physiology, Biology, Chemistry, and Math.',
     Icon: Calculator,
-    image: 'https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3'
+    image: '/HESI.png',
+    alt: 'HESI exam preparation resources',
+    category: 'Healthcare Education',
+    metaDescription: 'Professional HESI exam preparation with subject matter experts.'
   },
   {
-    title: 'Sciences',
-    description: 'Comprehensive coverage of physics, chemistry, and biology concepts.',
+    title: 'Online Classes',
+    description: 'Full-service online class support for various subjects. Get help with assignments, discussions, projects, and exam preparation in a virtual learning environment.',
     Icon: Microscope,
-    image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d'
+    image: '/classes.png',
+    alt: 'Online classroom environment',
+    category: 'Academic Support',
+    metaDescription: 'Comprehensive online class support and management services for all subjects.'
   },
   {
-    title: 'Languages',
-    description: 'Master multiple languages with native-speaking tutors.',
+    title: 'Wonderlic Exams',
+    description: 'Expert preparation for Wonderlic cognitive ability and basic skills tests. Learn time management strategies and practice with sample questions.',
     Icon: Languages,
-    image: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d'
+    image: '/wonderlic.png',
+    alt: 'Wonderlic test preparation materials',
+    category: 'Professional Tests',
+    metaDescription: 'Professional Wonderlic test preparation and practice resources.'
   },
   {
-    title: 'Writing Skills',
-    description: 'Develop strong writing abilities for essays, reports, and creative writing.',
-    Icon: PenTool,
-    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a'
-  },
-  {
-    title: 'Study Skills',
-    description: 'Learn effective study techniques and time management strategies.',
-    Icon: BookCheck,
-    image: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e'
-  },
-  {
-    title: 'College Prep',
-    description: 'Comprehensive college application and admission preparation.',
-    Icon: School,
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1'
-  },
-  {
-    title: 'Computer Science',
-    description: 'Programming and computer science concepts made simple.',
-    Icon: Code,
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6'
-  },
-  {
-    title: 'Music Lessons',
-    description: 'Individual and group music instruction for various instruments.',
-    Icon: Music,
-    image: 'https://images.unsplash.com/photo-1514119412350-e174d90d280e'
-  },
-  {
-    title: 'Art Classes',
-    description: 'Develop artistic skills in various mediums and techniques.',
-    Icon: Palette,
-    image: 'https://images.unsplash.com/photo-1452860606245-08befc0ff44b'
-  },
-  {
-    title: 'Advanced Placement',
-    description: 'Specialized preparation for AP exams and coursework.',
-    Icon: Award,
-    image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94'
-  },
-  {
-    title: 'International Studies',
-    description: 'Support for international curriculum and examinations.',
-    Icon: Globe,
-    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655'
-  },
-  {
-    title: 'Memory Skills',
-    description: 'Techniques to improve memory and cognitive abilities.',
-    Icon: Brain,
-    image: 'https://images.unsplash.com/photo-1557426272-fc759fdf7a8d'
-  },
-  {
-    title: 'Digital Skills',
-    description: 'Essential computer and digital literacy training.',
+    title: 'Coding Tasks and Exams',
+    description: 'Specialized support for programming assignments and coding exams in various languages including Python, Java, C++, and JavaScript.',
     Icon: Laptop,
-    image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1'
+    image: '/coding.jpeg',
+    alt: 'Programming and coding environment',
+    category: 'Technical Education',
+    metaDescription: 'Expert assistance with coding assignments and programming exams.'
   },
   {
-    title: 'Flexible Hours',
-    description: 'Convenient scheduling options to fit your busy life.',
+    title: 'Web Development Assignment',
+    description: 'Professional help with web development projects including HTML, CSS, JavaScript, React, Angular, and full-stack development tasks.',
     Icon: Clock,
-    image: 'https://images.unsplash.com/photo-1506784693919-ef06d93c28d2'
+    image: '/web-dev.jpg',
+    alt: 'Web development workspace',
+    category: 'Technical Education',
+    metaDescription: 'Comprehensive web development assignment assistance and support.'
   },
   {
-    title: 'Academic Support',
-    description: 'Ongoing support for all academic subjects and levels.',
+    title: 'App Development Assignment',
+    description: 'Expert assistance with mobile and desktop application development assignments, covering iOS, Android, and cross-platform development.',
     Icon: BookOpen,
-    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b'
+    image: '/app-dev.png',
+    alt: 'App development tools and interface',
+    category: 'Technical Education',
+    metaDescription: 'Professional app development project assistance and guidance.'
+  },
+  {
+    title: 'Physiology Exams',
+    description: 'Comprehensive support for physiology examinations, covering human body systems, cellular processes, and physiological mechanisms.',
+    Icon: PenTool,
+    image: '/physiology.png',
+    alt: 'Physiology study materials',
+    category: 'Medical Education',
+    metaDescription: 'Expert physiology exam preparation and support services.'
+  },
+  {
+    title: 'Immunology Exams',
+    description: 'Specialized assistance for immunology exams, covering immune system components, mechanisms, and clinical applications.',
+    Icon: BookCheck,
+    image: '/immunology.png',
+    alt: 'Immunology course materials',
+    category: 'Medical Education',
+    metaDescription: 'Professional immunology exam preparation and study support.'
+  },
+  {
+    title: 'Microbiology Exams',
+    description: 'Expert support for microbiology examinations, covering microorganisms, laboratory techniques, and clinical applications.',
+    Icon: School,
+    image: '/Microbiology.png',
+    alt: 'Microbiology laboratory setup',
+    category: 'Medical Education',
+    metaDescription: 'Comprehensive microbiology exam preparation and assistance.'
+  },
+  {
+    title: 'Pathology Exams',
+    description: 'Professional assistance with pathology examinations, covering disease processes, diagnostic methods, and clinical correlations.',
+    Icon: Code,
+    image: '/pathology.png',
+    alt: 'Pathology study materials',
+    category: 'Medical Education',
+    metaDescription: 'Expert pathology exam preparation and study support.'
+  },
+  {
+    title: 'Biochemistry Exams',
+    description: 'Comprehensive support for biochemistry exams, covering molecular processes, metabolic pathways, and laboratory techniques.',
+    Icon: Music,
+    image: '/Biochem.png',
+    alt: 'Biochemistry course materials',
+    category: 'Medical Education',
+    metaDescription: 'Professional biochemistry exam preparation and assistance.'
+  },
+  {
+    title: 'Anatomy Exams',
+    description: 'Expert assistance with anatomy examinations, covering human body structure, systems, and clinical applications.',
+    Icon: Palette,
+    image: '/Anatomy.png',
+    alt: 'Anatomy study resources',
+    category: 'Medical Education',
+    metaDescription: 'Comprehensive anatomy exam preparation and study support.'
+  },
+  {
+    title: 'English Exam',
+    description: 'Professional support for English language examinations, covering grammar, comprehension, writing, and communication skills.',
+    Icon: Award,
+    image: '/Atieng.png',
+    alt: 'English exam preparation materials',
+    category: 'Language Arts',
+    metaDescription: 'Expert English exam preparation and language skills support.'
+  },
+  {
+    title: 'Online Pearson VUE Exams',
+    description: 'Specialized assistance for Pearson VUE certification exams across various professional fields and technical domains.',
+    Icon: Globe,
+    image: '/vue.png',
+    alt: 'Pearson VUE exam preparation',
+    category: 'Professional Certification',
+    metaDescription: 'Professional Pearson VUE exam preparation and support services.'
+  },
+  {
+    title: 'Online Exams',
+    description: 'Comprehensive support for various online examinations, including test preparation, practice questions, and exam strategies.',
+    Icon: Brain,
+    image: '/Helper.png',
+    alt: 'Online exam assistance tools',
+    category: 'General Education',
+    metaDescription: 'Expert online exam preparation and support for all subjects.'
   }
-];
+] as const;
+
+// Categories for filtering
+export const serviceCategories = [
+  'Tutoring',
+  'Standardized Tests',
+  'Healthcare Education',
+  'Academic Support',
+  'Professional Tests',
+  'Technical Education',
+  'Medical Education',
+  'Language Arts',
+  'Professional Certification',
+  'General Education'
+] as const;
+
+// Helper function to get services by category
+export const getServicesByCategory = (category: string) => {
+  return allServices.filter(service => service.category === category);
+};
+
+// Helper function to get featured services (you can customize the logic)
+export const getFeaturedServices = () => {
+  return allServices.slice(0, 6); // Returns first 6 services as featured
+};
+
+// Types for type safety
+export type Service = typeof allServices[number];
+export type ServiceCategory = typeof serviceCategories[number];

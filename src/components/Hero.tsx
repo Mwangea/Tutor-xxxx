@@ -26,7 +26,7 @@ export default function Hero() {
         aria-label="Homepage Hero Section"
         className="pt-20 min-h-screen relative flex items-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(31, 71, 136, 0.9), rgba(74, 155, 140, 0.9)), url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1)',
+          backgroundImage: 'linear-gradient(rgba(31, 71, 136, 0.9), rgba(74, 155, 140, 0.9)), url(/Hero-img.jpeg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
