@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Head from 'next/head';
 
 export default function Hero() {
@@ -20,6 +20,8 @@ export default function Hero() {
           content="Transform your academic journey with expert personalized tutoring. Our proven methods build confidence and achieve outstanding results."
         />
         <meta property="og:type" content="website" />
+        {/* Preload background image */}
+        <link rel="preload" as="image" href="/Hero-img.jpeg" />
       </Head>
       <section 
         id="home" 
@@ -32,10 +34,19 @@ export default function Hero() {
         }}
       >
         <div className="container mx-auto px-4 py-20 text-center text-white relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6" itemProp="headline">
+          {/* High-priority content */}
+          <h1 
+            className="text-4xl md:text-6xl font-bold mb-6" 
+            itemProp="headline"
+            style={{ fontDisplay: 'swap' }}
+          >
             Empowering Students to Excel
           </h1>
-          <p className="text-xl mb-8 max-w-2xl mx-auto" itemProp="description">
+          <p 
+            className="text-xl mb-8 max-w-2xl mx-auto" 
+            itemProp="description"
+            style={{ fontDisplay: 'swap' }}
+          >
             Transform your academic journey with personalized tutoring that builds confidence and achieves results.
           </p>
           <button 
