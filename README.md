@@ -66,7 +66,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-Musa Mwangea - [@mwangea](https://github.com/mwangea)
+Musa Mwangea - [@mwangea](https://twitter.com/mwangea)
 
 Project Link: [https://github.com/mwangea/Tutor-xxxx]((https://github.com/Mwangea/Tutor-xxxx))
 
