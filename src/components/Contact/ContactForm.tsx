@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
 import { serviceCategories } from './contactData';
 import { validateEmail, validateRequired } from '../../utils/validation';
 import Button from '../common/Button';
@@ -82,22 +81,10 @@ export default function ContactForm() {
 
     setStatus({ loading: true, success: false, error: null });
 
-    // Replace these with your actual EmailJS credentials
-    const templateParams = {
-      to_email: 'support@TutorChristabel.com',
-      from_name: formData.name,
-      from_email: formData.email,
-      service_type: formData.serviceType,
-      message: formData.message,
-    };
-
     try {
-      await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
-        templateParams,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
-      );
+      // Send email directly
+      const mailtoLink = `mailto:support@tutorChristabel.com?subject=New Contact Form Submission&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0AService Type: ${formData.serviceType}%0D%0AMessage: ${formData.message}`;
+      window.location.href = mailtoLink;
 
       setStatus({
         loading: false,
@@ -106,7 +93,6 @@ export default function ContactForm() {
       });
       resetForm();
 
-      // Reset success message after 5 seconds
       setTimeout(() => {
         setStatus(prev => ({ ...prev, success: false }));
       }, 5000);
@@ -164,7 +150,6 @@ export default function ContactForm() {
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           required
           error={errors.name}
-          disabled={status.loading}
         />
         <Input
           id="email"
@@ -174,7 +159,7 @@ export default function ContactForm() {
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           required
           error={errors.email}
-          disabled={status.loading}
+         
         />
         <div>
           <label htmlFor="serviceType" className="block text-gray-700 mb-2">

@@ -52,9 +52,10 @@ export default function Hero() {
             Transform your academic journey with personalized tutoring that builds confidence and achieves results.
           </p>
           <button 
+           
             className="bg-white text-[#1F4788] px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors"
             aria-label="Start your tutoring journey"
-            onClick={() => {}} // Add your click handler here
+           
           >
             Start Learning Today
           </button>
