@@ -15,7 +15,7 @@ export default function ServiceList() {
   useEffect(() => {
     const filteredServices = selectedCategory === 'all' 
       ? allServices 
-      : allServices.filter(service => service.category === selectedCategory);
+      : allServices.filter(service => service.category === selectedCategory) as Service[];
     
     setVisibleServices(showMore ? filteredServices : filteredServices.slice(0, ITEMS_PER_PAGE));
   }, [selectedCategory, showMore]);

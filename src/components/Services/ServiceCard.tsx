@@ -71,17 +71,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
           {description}
         </p>
 
-        {/* Learn More Button */}
-        <div className="mt-4">
-          <button
-            className="inline-flex items-center text-sm font-medium text-[#4A9B8C] hover:text-[#3d8274] 
-              transition-colors duration-300 group/button"
-            aria-label={`Learn more about ${title}`}
-          >
-            Learn More
-            <ExternalLink className="w-4 h-4 ml-2 transform group-hover/button:translate-x-1 transition-transform duration-300" />
-          </button>
-        </div>
+        
       </div>
     </motion.article>
   );

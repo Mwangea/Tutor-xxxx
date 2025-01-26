@@ -8,6 +8,8 @@ import Footer from "./components/Footer/Footer";
 import WhatsAppButton from "./components/common/WhatsAppButton";
 import { TestimonialCard } from "./components/TestimonialCard";
 import WhyChooseUs from "./components/WhyChooseUs";
+import ScrollToTopButton from "./components/common/ScrollToTopButton";
+import PopupModal from "./components/common/PopupModal";
 
 function App() {
   return (
@@ -84,6 +86,9 @@ function App() {
         phoneNumber="+15125735490"
         message="Hi! I'm interested in tutoring services. Can you help me?"
       />
+      <ScrollToTopButton />
+
+      <PopupModal />
     </div>
   );
 }
